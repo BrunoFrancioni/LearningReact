@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import HelloWorld from './components/HelloWorld';
+import ByeWorld from './components/ByeWorld';
 
 function App() {
   return (
@@ -9,14 +10,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <HelloWorld />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <br />
+        <ByeWorld />
       </header>
     </div>
   );
