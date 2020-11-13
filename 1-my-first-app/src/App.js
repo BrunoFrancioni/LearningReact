@@ -4,6 +4,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import ByeWorld from './components/ByeWorld';
 import SayHi from './components/SayHi';
+import PictureAsAComponent from './components/PictureAsAComponent';
 
 function App() {
   const userInfo = {
@@ -22,6 +23,8 @@ function App() {
         <HelloWorld />
         <br />
         <SayHi userInfo={ userInfo } sayHi={ sayHi } />
+        <br />
+        <PictureAsAComponent />
         <br />
         <ByeWorld />
       </header>
